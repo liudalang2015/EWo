@@ -1,0 +1,22 @@
+@charset "utf-8";
+@media screen and (max-width:320px){
+	.sinput { width:90px; }
+
+}
+
+@media screen and (min-width:321px) and (max-width:480px){
+	.sinput { width:90px; }
+}
+
+
+@media screen and (min-width:481px) and (max-width:640px){
+	.sinput { width:251px; }
+}
+
+@media screen and (min-width:641px) and (max-width:768px){
+	.sinput { width:411px; }
+}
+
+@media screen and (min-width:769px) and (max-width:1920px){
+	.sinput { width:539px; }
+}

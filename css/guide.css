@@ -1,0 +1,78 @@
+@charset "utf-8";
+
+html{height:100%;overflow:hidden;}
+body{ margin:0; background:#000 url(../img/bird.jpg) bottom center  no-repeat; no-repeat;background-size:contain; font-family:'微软雅黑'}
+h1 { margin:0; color:#FFF; font-size:2em; text-align:center; }
+#menu{width:60px;height:60px; position:absolute;left:50%; top:50%;margin-left:-30px; margin-top:0px;}
+#menu_list{height:60px;width:60px; position:relative;}
+#menu_list div{ position:absolute;left:0;top:0; width:60px; height:60px; line-height:60px; border-radius:50%; text-align:center; color:#FFF; font-size:14px; }
+#menu_list span{ position:absolute; left:-14px; top:24px; width:12px; height:12px; border-radius:50%; background:#CC6633}
+#menu_list div:nth-child(1){-background:#F65869; background:rgba(246,88,105,0.8); 
+-khtml-box-shadow:0 0px 0px 10px rgba(246,88,105,0.3);
+-rim-box-shadow:0 2px 10px rgba(246,88,105,0.8);
+-ms-box-shadow:0 2px 10px rgba(246,88,105,0.8);
+-o-box-shadow:0 2px 10px rgba(246,88,105,0.8);
+-moz-box-shadow:0 2px 10px rgba(246,88,105,0.8);
+-webkit-box-shadow:0 0px 0px 10px rgba(246,88,105,0.3);
+box-shadow:0 0px 0px 10px rgba(246,88,105,0.3);
+ }
+#menu_list div:nth-child(1) span { left:-3px; top:-3px; background:#F65869; }
+#menu_list div:nth-child(2){background:#FBB54E; background:rgba(251,181,78,0.8);
+-khtml-box-shadow:0 0px 0px 10px rgba(251,181,78,0.3);
+-rim-box-shadow:0 0px 0px 10px rgba(251,181,78,0.3);
+-ms-box-shadow:0 0px 0px 10px rgba(251,181,78,0.3);
+-o-box-shadow:0 0px 0px 10px rgba(251,181,78,0.3);
+-moz-box-shadow:0 0px 0px 10px rgba(251,181,78,0.3);
+-webkit-box-shadow:0 0px 0px 10px rgba(251,181,78,0.3);
+box-shadow:0 0px 0px 10px rgba(251,181,78,0.3);
+
+ }
+#menu_list div:nth-child(2) span { left:-3px; top:-3px; background:#FBB54E; }
+#menu_list div:nth-child(3){ background:#97D110; background:rgba(151,209,16,0.8);
+-khtml-box-shadow:0 0px 0px 10px rgba(151,209,16,0.3);
+-rim-box-shadow:0 0px 0px 10px rgba(151,209,16,0.3);
+-ms-box-shadow:0 0px 0px 10px rgba(151,209,16,0.3);
+-o-box-shadow:0 0px 0px 10px rgba(151,209,16,0.3);
+-moz-box-shadow:0 0px 0px 10px rgba(151,209,16,0.3);
+-webkit-box-shadow:0 0px 0px 10px rgba(151,209,16,0.3);
+box-shadow:0 0px 0px 10px rgba(151,209,16,0.3);
+
+
+}
+#menu_list div:nth-child(3) span { left:-3px; top:-3px; background:#97D110;}
+#menu_list div:nth-child(4){background:#12ABE0;background:rgba(18,171,224,0.8);
+-khtml-box-shadow:0 0px 0px 10px rgba(18,171,224,0.3);
+-rim-box-shadow:0 0px 0px 10px rgba(18,171,224,0.3);
+-ms-box-shadow:0 0px 0px 10px rgba(18,171,224,0.3);
+-o-box-shadow:0 0px 0px 10px rgba(18,171,224,0.3);
+-moz-box-shadow:0 0px 0px 10px rgba(18,171,224,0.3);
+-webkit-box-shadow:0 0px 0px 10px rgba(18,171,224,0.3);
+box-shadow:0 0px 0px 10px rgba(18,171,224,0.3);
+
+
+}
+#menu_list div:nth-child(4) span { left:51px; top:0px; background:#12ABE0;}
+#menu_list div:nth-child(5){background:#61F3C8;background:rgba(97,273,200,0.8);
+-khtml-box-shadow:0 0px 0px 10px rgba(97,273,200,0.3);
+-rim-box-shadow:0 0px 0px 10px rgba(97,273,200,0.3);
+-ms-box-shadow:0 0px 0px 10px rgba(97,273,200,0.3);
+-o-box-shadow:0 0px 0px 10px rgba(97,273,200,0.3);
+-moz-box-shadow:0 0px 0px 10px rgba(97,273,200,0.3);
+-webkit-box-shadow:0 0px 0px 10px rgba(97,273,200,0.3);
+box-shadow:0 0px 0px 10px rgba(97,273,200,0.3);
+}
+#menu_list div:nth-child(5) span { left:52px; top:0px;background:#61F3C8; }
+#menu_list div:nth-child(6){ background:#7F5FAB;background:rgba(127,95,171,0.8);
+
+-khtml-box-shadow:0 0px 0px 10px rgba(127,95,171,0.3);
+-rim-box-shadow:0 0px 0px 10px rgba(127,95,171,0.3);
+-ms-box-shadow:0 0px 0px 10px rgba(127,95,171,0.3);
+-o-box-shadow:0 0px 0px 10px rgba(127,95,171,0.3);
+-moz-box-shadow:0 0px 0px 10px rgba(127,95,171,0.3);
+-webkit-box-shadow:0 0px 0px 10px rgba(127,95,171,0.3);
+box-shadow:0 0px 0px 10px rgba(127,95,171,0.3);
+
+
+ }
+#menu_list div:nth-child(6) span { left:52px; top:0px; background:#7F5FAB; }
+#home{width:60px;height:60px; line-height:60px; font-size:20px; text-align:center;  border-radius:50%; background:#0054A6; position:absolute; left:0;top:0; color:#FFF; }
